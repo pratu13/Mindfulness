@@ -11,6 +11,8 @@
 		B1AD8191270CEFE700FD76E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD8190270CEFE700FD76E3 /* ContentView.swift */; };
 		B1AD8193270CEFEA00FD76E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AD8192270CEFEA00FD76E3 /* Assets.xcassets */; };
 		B1AD8196270CEFEA00FD76E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AD8195270CEFEA00FD76E3 /* Preview Assets.xcassets */; };
+		B1AD819D270CF32C00FD76E3 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AD819C270CF32C00FD76E3 /* ColorAssets.xcassets */; };
+		B1AD819F270CF38200FD76E3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD819E270CF38200FD76E3 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B1AD8190270CEFE700FD76E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1AD8192270CEFEA00FD76E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AD8195270CEFEA00FD76E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1AD819C270CF32C00FD76E3 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		B1AD819E270CF38200FD76E3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B1AD818E270CEFE700FD76E3 /* MindfulnessApp.swift */,
 				B1AD8190270CEFE700FD76E3 /* ContentView.swift */,
+				B1AD819E270CF38200FD76E3 /* Colors.swift */,
+				B1AD819C270CF32C00FD76E3 /* ColorAssets.xcassets */,
 				B1AD8192270CEFEA00FD76E3 /* Assets.xcassets */,
 				B1AD8194270CEFEA00FD76E3 /* Preview Content */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AD8196270CEFEA00FD76E3 /* Preview Assets.xcassets in Resources */,
+				B1AD819D270CF32C00FD76E3 /* ColorAssets.xcassets in Resources */,
 				B1AD8193270CEFEA00FD76E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AD8191270CEFE700FD76E3 /* ContentView.swift in Sources */,
+				B1AD819F270CF38200FD76E3 /* Colors.swift in Sources */,
 				B1AD818F270CEFE700FD76E3 /* MindfulnessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
